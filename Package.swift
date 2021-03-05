@@ -6,6 +6,7 @@ let package = Package(
     products: [
         .library(
             name: "Clibsodium",
+            type: .static,
             targets: ["Clibsodium"]),
     ],
     targets: [
